@@ -13,7 +13,8 @@ class TaiXiuPredictor:
         self.analysis_history = []
     
     def advanced_md5_analysis(self, md5_hash):
-        """Phân tích MD5 nâng cao - KHÔNG RANDOM"""
+        """Phân tích MD5 nâng cao - KHÔNG RANDOM
+           ĐỒ FREE HÃY SỬ DỤNG MỘT CÁCH SÁNG SUỐT"""
         # Chuyển MD5 thành các số nguyên để phân tích
         hash_parts = [md5_hash[i:i+8] for i in range(0, 32, 8)]
         numbers = [int(part, 16) for part in hash_parts]
@@ -155,4 +156,5 @@ Kết quả có độ chính xác cao
 
 if __name__ == "__main__":
     print("🎰 Tai Xiu Predictor Bot đang chạy...")
+
     bot.polling(none_stop=True)
