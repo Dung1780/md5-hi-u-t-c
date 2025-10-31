@@ -99,8 +99,7 @@ def start_cmd(message):
 🎰 **BOT DỰ ĐOÁN TÀI XỈU HIT.CLUB** 🎰
 
 📊 **Phân tích MD5 thực - KHÔNG RANDOM
-Lưu ý : FREE ĐỪNG ĐÒI HỎI NHIỀU
-                Không chuẩn phải chịu**
+Lưu ý : FREE ĐỪNG ĐÒI HỎI NHIỀU Không chuẩn phải chịu**
 🔍 **Thuật toán nâng cao - Độ chính xác cao**
 
 📝 **Cách sử dụng:**
@@ -146,8 +145,7 @@ def handle_md5(message):
 • Bit pattern: {result['analysis_details']['bit_ratio']}
 
 💡 **LƯU Ý:** 
-Phân tích dựa trên thuật toán MD5 thực
-Kết quả có độ chính xác cao
+Dòng code đã được mã hoá
 
 🎲 **QUYẾT ĐỊNH CUỐI CÙNG:** **{result['prediction']}**
     """
@@ -157,3 +155,4 @@ Kết quả có độ chính xác cao
 if __name__ == "__main__":
     print("🎰 Tai Xiu Predictor Bot đang chạy...")
     bot.polling(none_stop=True)
+
